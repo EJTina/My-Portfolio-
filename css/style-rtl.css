@@ -1,0 +1,402 @@
+body {
+  text-align: right;
+}
+
+.main-title h2:before {
+    right: auto;
+    left: -77px;
+}
+
+.main-title h2:after {
+    right: auto;
+    left: -17px;
+}
+
+.main-title span {
+    right: auto;
+    left: -110px;
+}
+
+/* --------------------------------------
+   Color Switcher
+-----------------------------------------*/
+
+.switch-button {
+    right: auto;
+    left: 0;
+}
+
+.switch-button.hide {
+    right: auto;
+    left: -100%;
+}
+
+.switched-styles {
+    right: auto;
+    left: -100%;
+}
+
+.switched-styles.show {
+    right: auto;
+    left: 0;
+}
+
+.switched-styles .hide-button {
+    right: auto;
+    left: 10px;
+}
+
+/* --------------------------------------
+  Navbar
+-----------------------------------------*/
+
+.navbar .menu-toggle {
+    float: left;
+}
+
+.navbar .navbar-brand .brand-after {
+    right: auto;
+    left: -8px;
+    float: right;
+}
+
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+    margin: 0 5px 0 25px;
+}
+
+/* --------------------------------------
+   About Me
+-----------------------------------------*/
+
+.about-me .about-info h3:before {
+    left: auto;
+    right: 0;
+}
+
+.about-me .about-info .personal-info .info-bg {
+    right: auto;
+    left: 23px;
+}
+
+.about-me .about-info .personal-info p {
+    padding-left: auto;
+    padding-right: 12px;
+}
+
+.about-me .about-info .personal-info p:before {
+    left: auto;
+    right: -3px;
+}
+
+.about-me .about-info .personal-info p span {
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+/* --------------------------------------
+   Skills
+-----------------------------------------*/
+
+.progress-bar {
+    float: right;
+}
+
+/* --------------------------------------
+   Services
+-----------------------------------------*/
+
+.services .service h4:before {
+    left: auto;
+    right: -71px;
+}
+
+.services .service h4:after {
+    left: auto;
+    right: -17px;
+}
+
+/* --------------------------------------
+   Resume
+-----------------------------------------*/
+
+.resume .timeline ul li:nth-child(odd) .timeline-content {
+    float: right;
+}
+
+.resume .timeline ul li:nth-child(even) .timeline-content {
+    float: left;
+}
+
+.resume .timeline ul li:nth-child(odd) .timeline-content:before {
+    right: auto;
+    left: -22px;
+}
+
+.resume .timeline ul li:nth-child(even) .timeline-content:before {
+    left: auto;
+    right: -22px;
+    border-width: 10px 12px;
+    border-style: solid;
+}
+
+@media (min-width: 768px) {
+    .rtl-demo .resume .timeline ul li:nth-child(odd) .timeline-content:before {
+        border-color: transparent #252425 transparent transparent;
+    }
+
+    .rtl-demo .resume .timeline ul li:nth-child(even) .timeline-content:before {
+        border-color: transparent transparent transparent #252425;
+    }
+}
+
+/* --------------------------------------
+   Portfolio
+-----------------------------------------*/
+
+#filtr-container {
+    direction: ltr !important;
+}
+
+.portfolio .list-filter li:before {
+    left: auto;
+    right: 0;
+}
+
+.portfolio .portfolio-content .item .overlay .icon-img {
+    left: auto;
+    right: 35px;
+}
+
+.portfolio .portfolio-content .item .overlay .item-title h4 {
+    right: auto;
+    left: 25px;
+}
+
+/* --------------------------------------
+   Testimonials
+-----------------------------------------*/
+
+.owl-carousel,
+.bx-wrapper {
+	direction: ltr;
+}
+
+.owl-carousel .owl-item {
+	direction: rtl;
+}
+
+.testimonials .testimonial-box .description {
+    text-align: right;
+}
+
+.testimonials .testimonial-box .description:before {
+    left: auto;
+    right: -27px;
+}
+
+.testimonials .testimonial-box .description:after {
+	right: auto;
+	left: -14px;
+}
+
+.testimonials .testimonial-box .client-pic {
+    float: right;
+    margin-left: 20px;
+}
+
+.testimonials .client-details {
+    float: right;
+}
+
+/* --------------------------------------
+   Blog
+-----------------------------------------*/
+
+.blog .post-img .post-category {
+    left: auto;
+    right: 10px;
+}
+
+.blog .post .post-content .post-info li {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.blog .post .post-content .post-more i {
+    margin-left: auto;
+    margin-right: 4px;
+}
+
+/* --------------------------------------
+   Footer
+-----------------------------------------*/
+
+.footer .logo span {
+    right: auto;
+    left: -8px;
+    float: right;
+}
+
+.footer .footer-social-icons li {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+/* --------------------------------------
+   Scroll To Top
+-----------------------------------------*/
+
+.scroll-top {
+    right: auto;
+    left: -70px;
+}
+
+.scroll-top.active {
+    right: auto;
+    left: 30px;
+}
+
+/* --------------------------------------
+   17. Media Queries
+-----------------------------------------*/
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*=========== Navbar ============*/
+    
+    .navbar .navbar-links .navbar-nav {
+        left: auto;
+        right: -300px;
+    }
+    
+    .navbar .navbar-links .navbar-nav > li.nav-brand a .brand-after {
+        right: auto;
+        left: -8px;
+        float: right;
+    }
+    
+    .navbar.menu-active .navbar-links .navbar-nav {
+        left: auto;
+        right: 0;
+    }
+	
+	.navbar .navbar-nav > li > a,
+	.navbar .navbar-nav > li > a:hover,
+	.navbar .navbar-nav > li > a:focus {
+        margin: 0;
+    }
+
+    .navbar-nav > li {
+        float: none !important;
+    }
+
+    .navbar .navbar-nav > li.menu-item-has-children > a:after {
+        right: auto;
+        left: 14px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+}
+
+
+/* Small Devices */
+@media (max-width: 767.98px) {
+    
+    /*=========== Navbar ============*/
+    
+    .navbar .navbar-links .navbar-nav {
+        left: auto;
+        right: -300px;
+    }
+    
+    .navbar .navbar-links .navbar-nav > li.nav-brand a .brand-after {
+        right: auto;
+        left: -8px;
+        float: right;
+    }
+    
+    .navbar.menu-active .navbar-links .navbar-nav {
+        left: auto;
+        right: 0;
+    }
+	
+	.navbar .navbar-nav > li > a,
+	.navbar .navbar-nav > li > a:hover,
+	.navbar .navbar-nav > li > a:focus {
+        margin: 0;
+    }
+
+    .navbar .navbar-nav > li.menu-item-has-children > a:after {
+        right: auto;
+        left: 14px;
+    }
+    
+    /*=========== Home ============*/
+    
+    .home .intro h3 {
+        padding-right: 15px;
+        padding-left: 0;
+    }
+    
+    .home .intro h3 span {
+        padding-right: 0;
+        padding-left: 15px;
+    }
+	
+    /*=========== Resume ============*/
+    
+    .resume .timeline ul li:nth-child(even) .timeline-content:before {
+        left: auto;
+        right: 50%;
+        margin-left: 0;
+        margin-right: -12px;
+    }
+    
+    .resume .timeline ul li:nth-child(odd) .timeline-content:before {
+        right: auto;
+        left: 50%;
+        margin-right: auto;
+        margin-left: -12px;
+    } 
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+   
+    .main-title h2 {
+        padding-left: 0;
+        padding-right: 22px;
+    }
+    
+    .main-title h2:before {
+        right: auto;
+        left: -52px;
+    }
+    
+    .main-title h2:after {
+        right: auto;
+        left: -62px;
+    }
+    
+    .main-title span {
+        right: auto;
+        left: -95px;
+    }
+    
+    /*=========== Home ============*/
+
+    .home .intro h3 {
+        padding-left: auto;
+        padding-right: 10px;
+    }
+}
